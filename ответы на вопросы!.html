@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Documents</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+   <div class="block"> <h2>Задание 1</h2> <br> var a = 1, b = 1, c, d;
+c = ++a; alert(c); // 2, <br>
+так как префикская форма инкремента сначал увеличивает значение на единицу, а затем присваивает его переменной <br>
+d = b++; alert(d); // 1, <br>
+так как постфиксная форма инкремента сначала присваивает значение, а затем увеличивает его на единицу <br>
+c = (2+ ++a); alert(c); // 5 <br>
+так как 'a' на момент выполнения равно 2 и увеличивается на 1 префиксно, получаем с = 2 + 3 <br>
+d = (2+ b++); alert(d); // 4 <br>
+так как 'b' на момент выполнения равно 2, но увеличивается на 1 постфиксно <br> (то есть в действии участвует его старое значение), получаем d = 2 + 2 <br>
+alert (a); // 3 <br>
+так как изначально было 1 и дважды увеличивалось на 1 при операциях <br>
+alert (b); // 3 <br>
+так как изначально было 1 и дважды увеличивалось на 1 при операциях </div>
+   <div class="block"> <h2> Задание 2 <br> Ответ 5</h2></div>
+   <div class="block"> <h2>Задание 5</h2>function add ( a, b ) { //Сложение
+    return a + b; <br>
+} <br>
+function sub ( a, b ) { //Вычитание <br>
+    return a - b; <br>
+} <br>
+function div ( a, b ) { //Деление <br>
+    return a / b; <br>
+} <br>
+function mul ( a, b ) { //Умножение <br>
+    return a * b; <br>
+}</div>
+   <div class="block"> <h2> Задание 6 <br></h2>
+   function mathOperation ( arg1, arg2, operation ) { <br>
+    switch (operation) { <br>
+        case '+': <br>
+            return add ( arg1, arg2 ); <br>
+            break; <br>
+        case '-': <br>
+            return sub ( arg1, arg2 ); <br>
+            break; <br>
+        case '/': <br>
+            return div ( arg1, arg2 ); <br>
+            break; <br>
+        case '*': <br>
+            return mul ( arg1, arg2 ); <br>
+            break; <br>
+    }
+}</div>
+   <div class="block"> <h2> Задание 7 <br></h2> 
+   function power( val, pow ) { <br>
+    if ( pow === 0 ) { <br>
+        return 1; <br>
+    } <br>
+    else { <br>
+        return val * power( val, pow - 1); <br>
+    } 
+}</div>
+   <div class="block"> <h2> Задание 9 <br> К false относится ещё "-" (минус) <br> " " (пустая строка) </h2></div>
+   <div class="block"> <h2> Задание 10 <br> Ответ - (К строке!)</h2></div>
+</body>
+</html>
