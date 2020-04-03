@@ -1,7 +1,0 @@
-.block { 
-    border: 2px double black;
-    min-height: 20px;
-    min-width: 20px;
-    max-width: 500px;
-    margin: 0 auto;
-}
